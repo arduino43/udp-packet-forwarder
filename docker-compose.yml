@@ -27,6 +27,7 @@ services:
       SERVER_PORT: 1680
       BAND: "us_902_928"
 
-
+volumes:
+  pktfwdr: {}
 
 
