@@ -142,6 +142,7 @@ RESET_GPIO=$RESET_GPIO POWER_EN_GPIO=$POWER_EN_GPIO POWER_EN_LOGIC=$POWER_EN_LOG
 
 # Start packet forwarder
 cd $INSTALL_DIR/packet_forwarder/lora_pkt_fwd
+echo "true" >> /var/pktfwd/diagnostics
 ./lora_pkt_fwd
 
 
